@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="shortcut icon" href="fire.png">
+    <title>Fire Safety</title>
+
+    <style>
+        .nav-item:hover{
+            background-color: rgb(0, 195, 255);
+        }
+        @media (min-width: 992px) {
+            .ml-auto {
+                margin-left: auto !important;
+            }
+        }
+        .btn-scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      }
+
+    .btn-scroll-top.show {
+      opacity: 1;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <a class="navbar-brand" href="#">DHVSU Fire Safety</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item hover-bg-light">
+              <a class="nav-link" href="#scrollspyHeading1" style="color: black">Fire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2" style="color: black">Fire Hydrants</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color: black">Others</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#scrollspyHeading3">Types of Fire</a></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading4">Tips</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading5">Contacts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <br>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h1 id="scrollspyHeading1" class="text-center text-danger">Fire</h1>
+        <h3 class="text-center text-warning">What is fire?</h3>
+        <p class="text-center">a state, process, or instance of
+            combustion in which fuel or
+            other material is ignited and
+            combined with oxygen, giving
+            off light, heat, and flame.
+            a burning mass of material, as
+            on a hearth or in a furnace.
+            </p>
+        <div class="container d-flex justify-content-center align-items-center">
+            <img class="w-50 h-50"src="firetriangle.jfif" alt="">
+        </div>
+        <p class="text-center">The fire triangle or combustion
+            triangle is a simple model for
+            understanding the necessary
+            ingredients for most fires</p>
+        <div class="container d-flex justify-content-center align-items-center">
+            <img class="w-50 h-50"src="Tetrahedrom.png" alt="">
+        </div>
+        <p class="text-center">The fire tetrahedron
+            represents the addition of a
+            component in the chemical
+            chain reaction, to the three
+            already present in the fire
+            triangle</p>
+        <br>
+        <h1 id="scrollspyHeading2" class="text-center text-danger">Fire Hydrants</h1>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Extinguish1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="Extinguish2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Extinguish3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Extinguish4.png"class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Extinguish5.jpg"class="d-block w-100" alt="...">
+              </div>
+             
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br>
+        <h1 id="scrollspyHeading3" class="text-center text-danger">Types of Fire</h1>
+        <h2 class="text-center text-warning">WHAT ARE THE DIFFERENT
+            CLASSES OF FIRE</h2>
+        <br>
+        <br>
+        <h3 class="text-center">Class A – Combustible
+            materials</h3>
+        <h3 class="text-center">Class B – Flammable liquids
+        </h3>
+        <h3 class="text-center">Class C – Flammable gases</h3>
+        <h3 class="text-center">Class D – Burning metals
+        </h3>
+        <h3 class="text-center">Class F – Cooking oils and
+            fats
+            
+        </h3>
+        <br>
+        <h1 id="scrollspyHeading4" class="text-center text-danger" >Tips</h1>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SeOaGMsIsjo" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center">
+        <a >Video Link:</a><a href="https://www.youtube.com/watch?v=SeOaGMsIsjo">Click Here</a>
+        </div>
+        <br>
+        <h1 id="scrollspyHeading5" class="text-center text-danger">Contacts</h1>
+        <h3 class="text-center"> Bacolor Fire Station:0922 528 3743 </h3> 
+        <h3 class="text-center"> Bacolor PNP:0916 591 7559 </h3>
+        <h3 class="text-center"> Bacolor MDRRMC:0917 830 6094 </h3>
+        <h3 class="text-center"> Bacolor Rodriguez Hospital:(045) 436-0811 </h3> 
+        <h3 class="text-center">municipalityofbacolor@gmail.com</h3>
+        <div class="container d-flex justify-content-center align-items-center">
+        <img src="PhoneQR.png" alt="" class="w-25 h-25">
+        </div>
+        <div class="container d-flex justify-content-center align-items-center"><a href="bacolorpampanga.gov.ph">bacolorpampanga.gov.ph</a></div>
+        
+         
+      </div>
+      <br>
+      <br>
+      <button class="btn btn-primary btn-scroll-top" onclick="scrollToTop()">
+        <i class="bi bi-arrow-up-circle-fill"></i>
+      </button>
+      <script>
+        var scrollButton = document.querySelector('.btn-scroll-top');
+      
+        window.addEventListener('scroll', function() {
+          if (window.pageYOffset > 0) {
+            scrollButton.classList.add('show');
+          } else {
+            scrollButton.classList.remove('show');
+          }
+        });
+      
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        }
+      </script>  
+    <footer class="bg-danger">
+      <br>
+      <br>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
